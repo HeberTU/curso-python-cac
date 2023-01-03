@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "curso-python-cac"
+version = "0.1.0"
+description = "Material del curso de programación en Python del Colegio de Actuarios de Cataluña"
+authors = ["HeberTU <heber.trj.urt@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
