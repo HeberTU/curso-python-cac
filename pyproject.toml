@@ -7,6 +7,7 @@ authors = ["HeberTU <heber.trj.urt@gmail.com>"]
 [tool.poetry.dependencies]
 python = "^3.8"
 nbstripout = "^0.6.1"
+notebook = "^6.5.2"
 
 [tool.poetry.dev-dependencies]
 
