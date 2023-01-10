@@ -6,6 +6,7 @@ authors = ["HeberTU <heber.trj.urt@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.8"
+nbstripout = "^0.6.1"
 
 [tool.poetry.dev-dependencies]
 
