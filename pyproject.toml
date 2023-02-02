@@ -20,6 +20,9 @@ scikit-learn = "^1.2.1"
 feature-engine = "^1.5.2"
 imblearn = "^0.0"
 xgboost = "^1.7.3"
+sqlmodel = "^0.0.8"
+MechanicalSoup = "^1.2.0"
+lxml = "^4.9.2"
 
 [tool.poetry.dev-dependencies]
 
