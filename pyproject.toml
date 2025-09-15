@@ -2,7 +2,8 @@
 name = "curso-python-cac"
 version = "0.1.0"
 description = "Material del curso de programación en Python del Colegio de Actuarios de Cataluña"
-authors = ["HeberTU <heber.trj.urt@gmail.com>"]
+authors = ["luca-miner <luca.minervini11@gmail.com>"]
+package-mode = false
 
 [tool.poetry.dependencies]
 python = ">=3.9,<4.0"
@@ -11,10 +12,11 @@ notebook = "^7.0.6"
 requests = "^2.28.2"
 loguru = "^0.6.0"
 pytest = "^7.2.1"
-pandas = "^1.5.3"
+pandas = ">=2.2.2"
 openpyxl = "^3.0.10"
 scipy = "^1.11.4"
 matplotlib = "^3.6.3"
+rpds-py = ">=0.20"
 seaborn = "^0.12.2"
 scikit-learn = "^1.2.1"
 feature-engine = "^1.5.2"
@@ -22,7 +24,7 @@ imblearn = "^0.0"
 xgboost = "^1.7.3"
 sqlmodel = "^0.0.8"
 MechanicalSoup = "^1.2.0"
-lxml = "^4.9.2"
+lxml = ">=5.2.2"
 
 [tool.poetry.dev-dependencies]
 
